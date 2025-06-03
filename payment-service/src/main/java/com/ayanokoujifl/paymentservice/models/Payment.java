@@ -1,4 +1,4 @@
-package com.ayanokoujifl.paymentservice.model;
+package com.ayanokoujifl.paymentservice.models;
 
 import java.io.Serializable;
 
