@@ -19,7 +19,7 @@ public class PaymentController {
 	private PaymentService service;
 
 	@PostMapping
-	public ResponseEntity<Payment> createPayment(@RequestBody Payment payment) {
+	public ResponseEntity<Payment> createPayment(@RequestBody Payment payment)throws Exception {
 		service.sendPayment(payment);
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
